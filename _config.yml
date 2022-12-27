@@ -42,6 +42,30 @@ theme: minima
 plugins:
   - jekyll-feed
 
+  # -----------------------------------------------------------------------------
+  # Blog
+  # -----------------------------------------------------------------------------
+  
+  blog_name: Aditya's blog # blog_name will be displayed in your blog page
+  blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
+  blog_description: views are mine alone, disclaimer, etc
+  permalink: /blog/:year/:title/
+  
+  # Pagination
+  pagination:
+    enabled: true
+  
+  # Comments
+  disqus_shortname: # put your disqus shortname
+  # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+  
+  # External sources.
+  # If you have blog posts published on medium.com or other exteranl sources,
+  # you can display them in your blog by adding a link to the RSS feed.
+  external_sources:
+    # - name: medium.com
+    #   rss_url: https://medium.com/@al-folio/feed
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
