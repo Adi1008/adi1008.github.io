@@ -18,16 +18,24 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: Aditya's Website
+first_name: Aditya
+last_name: Shah
+email: aditya.shah@stanford.edu
+description: Aditya's Website
+footer_text: >
+      Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+      Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+keywords: aditya-shah, chemical-engineering, physics, chemistry
+
+lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
+icon: godmode.png  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+
+repository: Adi1008/adi1008.github.io
+url: https://adi1008.github.io # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: adi1008i
+github_username:  Adi1008
 
 # Build settings
 theme: minima
