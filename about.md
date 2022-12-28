@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink:
+permalink: /about/
 ---
 
 Aditya is a person.
