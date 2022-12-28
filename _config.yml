@@ -55,6 +55,22 @@ permalink: /blog/:year/:title/
 pagination:
 enabled: true
 
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+
+collections:
+  news:
+    defaults:
+      layout: post
+    output: true
+    permalink: /news/:path/
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+news_scrollable: false # adds a vertical scroll bar if there are more than 3 news items
+
 # Comments
 disqus_shortname: # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
