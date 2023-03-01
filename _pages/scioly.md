@@ -1,7 +1,8 @@
 ---
-layout: page
-title: Science Olympiad
+layout: archive
+title: "Science Olympiad"
 permalink: /scioly/
+author_profile: true
 ---
 
 Science Olympiad is the largest team-based science competition in the United States. Teams of 15 students compete in 23 events covering everything from anatomy and astronomy to engineering challeneges, such as building a bridge out of balsa wood.
