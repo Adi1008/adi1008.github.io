@@ -13,7 +13,7 @@ We are responsible for making the rules for the event, creating resources to hel
 
 If you are interested in joining the A-Team, feel free to reach out to [me](mailto:adityashah108@gmail.com), [Connor](mailto:cwtodd@umich.edu), [Donna](mailto:dlyoung.nso@gmail.com), or [Tad](mailto:tkomacek@umd.edu). We'd love to have you!
 
-## [Resources for Solar System](https://adi1008.github.io/scioly/solar-system.md)
+## [Resources for Solar System](https://adi1008.github.io/scioly/solar-system)
 
 ## Past exams
 
