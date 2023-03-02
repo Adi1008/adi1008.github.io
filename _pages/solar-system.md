@@ -5,6 +5,8 @@ permalink: /scioly/solar-system
 author_profile: true
 ---
 
+Solar System is a Division B event for the 2022 and 2023 seasons. For the 2023 season, it will focus on habitability within and beyond the Solar System. This event is meant to be highly interdisciplinary, drawing on concepts from astronomy, planetary science, geology, chemistry, and biology, among others.
+
 ## Resources
 
 ### Online resources
@@ -21,3 +23,5 @@ author_profile: true
 - *Fundamental Planetary Science* by Jack J. Lissauer (2019)
 - *Astrobiology: An Introduction* by Alan Longstaff (2015)
 - *A Student’s Guide to the Mathematics of Astronomy* by Daniel Fleisch and Julia Kregenow (2013)
+
+### [Past exams](https://adi1008.github.io/scioly/past-exams)
