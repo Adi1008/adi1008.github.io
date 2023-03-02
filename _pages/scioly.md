@@ -13,22 +13,11 @@ This year, the event is **Solar System**, with a focus on habitability. Occasion
 
 If you are interested in joining the A-Team, feel free to reach out to [me](mailto:adityashah108@gmail.com), [Connor](mailto:cwtodd@umich.edu), [Donna](mailto:dlyoung.nso@gmail.com), or [Tad](mailto:tkomacek@umd.edu). We'd love to have you!
 
-## Resources for Solar System (2022-2023)
+{% include base_path %}
 
-### Online resources
-
-- [Wikipedia](https://www.wikipedia.org/)
-- [NASA Solar System Exploration](https://solarsystem.nasa.gov/)
-- [NASA Astrobiology](https://astrobiology.nasa.gov/)
-- [JPL Photojournal](https://photojournal.jpl.nasa.gov/)
-- [Official Webinar](https://www.youtube.com/watch?v=gfZ46Ae5hkU&list=PLmktQXw5yxsw72gpQ2HWFHJy1SFpptmt3)
-
-### Textbooks
-
-- *Planetary Habitability* by Stephen R. Kane (2021)
-- *Fundamental Planetary Science* by Jack J. Lissauer (2019)
-- *Astrobiology: An Introduction* by Alan Longstaff (2015)
-- *A Student’s Guide to the Mathematics of Astronomy* by Daniel Fleisch and Julia Kregenow (2013)
+{% for post in site.scioly %}
+  {% include archive-single.html %}
+{% endfor %}
 
 ### Past exams
 
