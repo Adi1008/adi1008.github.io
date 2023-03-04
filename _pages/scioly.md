@@ -13,15 +13,13 @@ Along with [Connor Todd](https://www.linkedin.com/in/connor-todd-548467171/), I 
 
 If you are interested in joining the A-Team, feel free to reach out to [me](mailto:adityashah108@gmail.com), [Connor](mailto:cwtodd@umich.edu), [Donna](mailto:dlyoung.nso@gmail.com), [Tad](mailto:tkomacek@umd.edu), or any other member of the A-Team you may know. We'd love to have you!
 
-<table width="100%">
+<table width="100%" border="0" style="padding:15px">
     <tr>
         <td style="text-align: center">
-            <a href="/scioly/solar-system"> <img src="/images/enceladus.jpg"> <br> </a>
-            <a href="/scioly/solar-system"> <font size="5"> Solar System </font> </a>
+            <a href="/scioly/solar-system"> <img src="/images/enceladus.jpg"> <br> <font size="5"> Solar System </font> </a>
         </td>
         <td style="text-align: center">
-            <a href="/scioly/past-exams"> <img src="/images/mitastro2019.jpg"> </a> <br>
-            <a href="/scioly/past-exams"> <font size="5"> Past Exams </font> </a>
+            <a href="/scioly/past-exams"> <img src="/images/mitastro2019.jpg"> <br> <font size="5"> Past Exams </font> </a>
         </td>
     </tr>
 </table>
