@@ -16,12 +16,12 @@ If you are interested in joining the A-Team, feel free to reach out to [me](mail
 <table width="100%">
     <tr>
         <td style="text-align: center">
-            <img src="/images/enceladus.jpg"></img> <br>
-            <a href="/scioly/solar-system"> Solar System </a>
+            <a href="/scioly/solar-system"> <img src="/images/enceladus.jpg"> <br> </a>
+            <a href="/scioly/solar-system"> <font size="5"> Solar System </font> </a>
         </td>
         <td style="text-align: center">
-            <img src="/images/mitastro2019.jpg"></img> <br>
-            <a href="/scioly/past-exams"> Past Exams </a>
+            <a href="/scioly/past-exams"> <img src="/images/mitastro2019.jpg"> </a> <br>
+            <a href="/scioly/past-exams"> <font size="5"> Past Exams </font> </a>
         </td>
     </tr>
 </table>
