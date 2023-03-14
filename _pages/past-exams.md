@@ -8,8 +8,9 @@ author_profile: true
 <details>
 
 <summary> ## Solar System </summary>
+<p>
 
-### UT Regional 2022-2023 
+### UT Regional 2022-2023
 
 <span style="font-size:0.9em;">[[exam]](/files/scioly/past-exams/22-23-UTReg/SS-Exam.pdf)
 [[images]](/files/scioly/past-exams/22-23-UTReg/SS-Images.pdf)
@@ -54,10 +55,12 @@ author_profile: true
 [[answer sheet]](/files/scioly/past-exams/18-19-UTReg/SS-AnsSheet.pdf)
 [[key]](/files/scioly/past-exams/18-19-UTReg/SS-Key.pdf)</span>
 
+</p>
 </details>
 
 <details>
 <summary> ## Reach for the Stars </summary>
+<p>
 
 ### UT Regional 2019-2020
 
@@ -73,6 +76,7 @@ author_profile: true
 [[answer sheet]](/files/scioly/past-exams/19-20-UTInv/RFTS-AnsSheet.pdf)
 [[key]](/files/scioly/past-exams/19-20-UTInv/RFTS-Key.pdf)</span>
 
+</p>
 </details>
 
 If you notice an error in any of the above exams, please let me know!
