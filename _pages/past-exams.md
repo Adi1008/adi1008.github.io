@@ -13,7 +13,6 @@ author_profile: true
 [[images]](/files/scioly/past-exams/22-23-Nats/SS-Images.pdf)
 [[answer sheet]](/files/scioly/past-exams/22-23-Nats/SS-AnsSheet.pdf)
 [[key]](/files/scioly/past-exams/22-23-Nats/SS-Key.pdf)
-[[feedback form]](https://tinyurl.com/sont23ss)
 [[anonymized feedback form responses]](https://docs.google.com/spreadsheets/d/1aCFTYwK_Ndmt5rNU8UPDkclTsNmO93wtkdlzNhrKWdg/edit?usp=sharing)</span>
 
 ### UT Regional 2022-2023
@@ -21,14 +20,16 @@ author_profile: true
 <span style="font-size:0.9em;">[[exam]](/files/scioly/past-exams/22-23-UTReg/SS-Exam.pdf)
 [[images]](/files/scioly/past-exams/22-23-UTReg/SS-Images.pdf)
 [[answer sheet]](/files/scioly/past-exams/22-23-UTReg/SS-AnsSheet.pdf)
-[[key]](/files/scioly/past-exams/22-23-UTReg/SS-Key.pdf)</span>
+[[key]](/files/scioly/past-exams/22-23-UTReg/SS-Key.pdf)
+[[anonymized feedback form responses]](https://docs.google.com/spreadsheets/d/1_L_4wMCTeqdr6PtPKmkaHdjfEdK6otGWBu7lfe1wJ-U/edit?usp=sharing)</span>
 
 ### UT Invitational 2022-2023
 
 <span style="font-size:0.9em;">[[exam]](/files/scioly/past-exams/22-23-UTInv/SS-Exam.pdf)
 [[images]](/files/scioly/past-exams/22-23-UTInv/SS-Images.pdf)
 [[answer sheet]](/files/scioly/past-exams/22-23-UTInv/SS-AnsSheet.pdf)
-[[key]](/files/scioly/past-exams/22-23-UTInv/SS-Key.pdf)</span>
+[[key]](/files/scioly/past-exams/22-23-UTInv/SS-Key.pdf)
+[[anonymized feedback form responses]](https://docs.google.com/spreadsheets/d/1Cu9SPDggKwLZys_Bvu2FQagSnYqyL4tfq_VXJdtKYUI/edit?usp=sharing)</span>
 
 ----
 
