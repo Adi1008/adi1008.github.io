@@ -5,6 +5,64 @@ permalink: /scioly/past-exams
 author_profile: true
 ---
 
+## Reach for the Stars
+
+### UT Invitational 2023-2024
+
+<span style="font-size:0.9em;">[[exam]](/files/scioly/past-exams/23-24-UTInv/RFTS-Exam.pdf)
+[[images]](/files/scioly/past-exams/23-24-UTInv/RFTS-Images.pdf)
+[[answer sheet]](/files/scioly/past-exams/23-24-UTInv/RFTS-AnsSheet.pdf)
+[[key]](/files/scioly/past-exams/23-24-UTInv/RFTS-Key.pdf)</span>
+
+----
+
+### UT Regional 2019-2020
+
+<span style="font-size:0.9em;">[[exam]](/files/scioly/past-exams/19-20-UTReg/RFTS-Exam.pdf)
+[[images]](/files/scioly/past-exams/19-20-UTReg/RFTS-Images.pdf)
+[[answer sheet]](/files/scioly/past-exams/19-20-UTReg/RFTS-AnsSheet.pdf)
+[[key]](/files/scioly/past-exams/19-20-UTReg/RFTS-Key.pdf)</span>
+
+### UT Invitational 2019-2020
+
+<span style="font-size:0.9em;">[[exam]](/files/scioly/past-exams/19-20-UTInv/RFTS-Exam.pdf)
+[[images]](/files/scioly/past-exams/19-20-UTInv/RFTS-Images.pdf)
+[[answer sheet]](/files/scioly/past-exams/19-20-UTInv/RFTS-AnsSheet.pdf)
+[[key]](/files/scioly/past-exams/19-20-UTInv/RFTS-Key.pdf)</span>
+
+----
+
+## Astronomy
+
+### MIT Invitational 2019-2020
+
+<span style="font-size:0.9em;">[[exam]](/files/scioly/past-exams/19-20-MITInv/Astro-Exam.pdf)
+[[images]](/files/scioly/past-exams/19-20-MITInv/Astro-Images.pdf)
+[[key]](/files/scioly/past-exams/19-20-MITInv/Astro-Key.pdf)
+[[FRQ walkthrough]](/files/scioly/past-exams/19-20-MITInv/Astro-FRQWalkthrough.pdf)
+[[FITS file]](/files/scioly/past-exams/19-20-MITInv/mystery.fits)</span>
+
+### UT Invitational 2019-2020
+
+<span style="font-size:0.9em;">[[exam]](/files/scioly/past-exams/19-20-UTInv/Astro-Exam.pdf)
+[[key]](/files/scioly/past-exams/19-20-UTInv/Astro-Key.pdf)</span>
+
+----
+
+### MIT Invitational 2018-2019
+
+<span style="font-size:0.9em;">[[exam]](/files/scioly/past-exams/18-19-MITInv/Astro-Exam.pdf)
+[[images]](/files/scioly/past-exams/18-19-MITInv/Astro-Images.pdf)
+[[key]](/files/scioly/past-exams/18-19-MITInv/Astro-Key.pdf)
+[[FRQ walkthrough]](/files/scioly/past-exams/18-19-MITInv/Astro-FRQWalkthrough.pdf)</span>
+
+### UT Invitational 2018-2019
+
+<span style="font-size:0.9em;">[[exam]](/files/scioly/past-exams/18-19-UTInv/Astro-Exam.pdf)
+[[key]](/files/scioly/past-exams/18-19-UTInv/Astro-Key.pdf)</span>
+
+----
+
 ## Solar System
 
 ### Nationals 2022-2023
@@ -62,23 +120,10 @@ author_profile: true
 [[answer sheet]](/files/scioly/past-exams/18-19-UTReg/SS-AnsSheet.pdf)
 [[key]](/files/scioly/past-exams/18-19-UTReg/SS-Key.pdf)</span>
 
-----
+### UT Invitational 2018-2019
 
-## Reach for the Stars
-
-### UT Regional 2019-2020
-
-<span style="font-size:0.9em;">[[exam]](/files/scioly/past-exams/19-20-UTReg/RFTS-Exam.pdf)
-[[images]](/files/scioly/past-exams/19-20-UTReg/RFTS-Images.pdf)
-[[answer sheet]](/files/scioly/past-exams/19-20-UTReg/RFTS-AnsSheet.pdf)
-[[key]](/files/scioly/past-exams/19-20-UTReg/RFTS-Key.pdf)</span>
-
-### UT Invitational 2019-2020
-
-<span style="font-size:0.9em;">[[exam]](/files/scioly/past-exams/19-20-UTInv/RFTS-Exam.pdf)
-[[images]](/files/scioly/past-exams/19-20-UTInv/RFTS-Images.pdf)
-[[answer sheet]](/files/scioly/past-exams/19-20-UTInv/RFTS-AnsSheet.pdf)
-[[key]](/files/scioly/past-exams/19-20-UTInv/RFTS-Key.pdf)</span>
+<span style="font-size:0.9em;">[[exam]](/files/scioly/past-exams/18-19-UTInv/SS-Exam.pdf)
+[[key]](/files/scioly/past-exams/18-19-UTInv/SS-Key.pdf)</span>
 
 ----
 
