@@ -7,6 +7,21 @@ author_profile: true
 
 ## Reach for the Stars
 
+### Nationals 2023-2024
+
+<span style="font-size:0.9em;">[[exam]](/files/scioly/past-exams/23-24-Nats/SS-Exam.pdf)
+[[images]](/files/scioly/past-exams/23-24-Nats/SS-Images.pdf)
+[[answer sheet]](/files/scioly/past-exams/23-24-Nats/SS-AnsSheet.pdf)
+[[key]](/files/scioly/past-exams/23-24-Nats/SS-Key.pdf)
+</span>
+
+### UT Regional 2023-2024
+
+<span style="font-size:0.9em;">[[exam]](/files/scioly/past-exams/23-24-UTReg/RFTS-Exam.pdf)
+[[images]](/files/scioly/past-exams/23-24-UTReg/RFTS-Images.pdf)
+[[answer sheet]](/files/scioly/past-exams/23-24-UTReg/RFTS-AnsSheet.pdf)
+[[key]](/files/scioly/past-exams/23-24-UTReg/RFTS-Key.pdf)</span>
+
 ### UT Invitational 2023-2024
 
 <span style="font-size:0.9em;">[[exam]](/files/scioly/past-exams/23-24-UTInv/RFTS-Exam.pdf)
@@ -29,8 +44,6 @@ author_profile: true
 [[images]](/files/scioly/past-exams/19-20-UTInv/RFTS-Images.pdf)
 [[answer sheet]](/files/scioly/past-exams/19-20-UTInv/RFTS-AnsSheet.pdf)
 [[key]](/files/scioly/past-exams/19-20-UTInv/RFTS-Key.pdf)</span>
-
-----
 
 ## Astronomy
 
@@ -60,8 +73,6 @@ author_profile: true
 
 <span style="font-size:0.9em;">[[exam]](/files/scioly/past-exams/18-19-UTInv/Astro-Exam.pdf)
 [[key]](/files/scioly/past-exams/18-19-UTInv/Astro-Key.pdf)</span>
-
-----
 
 ## Solar System
 
