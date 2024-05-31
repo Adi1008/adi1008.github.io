@@ -47,6 +47,16 @@ author_profile: true
 
 ## Astronomy
 
+### MIT Invitational 2023-2024
+
+<span style="font-size:0.9em;">[[exam]](/files/scioly/past-exams/23-24-MITInv/Astro-Exam.pdf)
+[[images]](/files/scioly/past-exams/23-24-MITInv/Astro-Images.pdf)
+[[answer sheet]](/files/scioly/past-exams/23-24-MITInv/Astro-AnsSheet.pdf)
+[[key]](/files/scioly/past-exams/23-24-MITInv/Astro-Key.pdf)
+</span>
+
+----
+
 ### MIT Invitational 2019-2020
 
 <span style="font-size:0.9em;">[[exam]](/files/scioly/past-exams/19-20-MITInv/Astro-Exam.pdf)
