@@ -9,10 +9,10 @@ author_profile: true
 
 ### Nationals 2023-2024
 
-<span style="font-size:0.9em;">[[exam]](/files/scioly/past-exams/23-24-Nats/SS-Exam.pdf)
-[[images]](/files/scioly/past-exams/23-24-Nats/SS-Images.pdf)
-[[answer sheet]](/files/scioly/past-exams/23-24-Nats/SS-AnsSheet.pdf)
-[[key]](/files/scioly/past-exams/23-24-Nats/SS-Key.pdf)
+<span style="font-size:0.9em;">[[exam]](/files/scioly/past-exams/23-24-Nats/RFTS-Exam.pdf)
+[[images]](/files/scioly/past-exams/23-24-Nats/RFTS-Images.pdf)
+[[answer sheet]](/files/scioly/past-exams/23-24-Nats/RFTS-AnsSheet.pdf)
+[[key]](/files/scioly/past-exams/23-24-Nats/RFTS-Key.pdf)
 </span>
 
 ### UT Regional 2023-2024
