@@ -7,6 +7,15 @@ author_profile: true
 
 ## Reach for the Stars
 
+### UT Invitational 2024-2025
+
+<span style="font-size:0.9em;">[[exam]](/files/scioly/past-exams/24-25-UTInv/RFTS-Exam.pdf)
+[[images]](/files/scioly/past-exams/24-25-UTInv/RFTS-Images.pdf)
+[[answer sheet]](/files/scioly/past-exams/24-25-UTInv/RFTS-AnsSheet.pdf)
+[[key]](/files/scioly/past-exams/24-25-UTInv/RFTS-Key.pdf)</span>
+
+----
+
 ### Nationals 2023-2024
 
 <span style="font-size:0.9em;">[[exam]](/files/scioly/past-exams/23-24-Nats/RFTS-Exam.pdf)
