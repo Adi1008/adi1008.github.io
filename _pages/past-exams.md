@@ -19,6 +19,7 @@ author_profile: true
 
 ### Nationals 2023-2024
 
+<span style="font-size:0.8em; color:gray;"><i>Written with Connor Todd<br></i></span>
 <span style="font-size:0.9em;">[[exam]](/files/scioly/past-exams/23-24-Nats/RFTS-Exam.pdf)
 [[images]](/files/scioly/past-exams/23-24-Nats/RFTS-Images.pdf)
 [[answer sheet]](/files/scioly/past-exams/23-24-Nats/RFTS-AnsSheet.pdf)
@@ -34,6 +35,7 @@ author_profile: true
 
 ### UT Invitational 2023-2024
 
+<span style="font-size:0.8em; color:gray;"><i>Written with Yonatan Sklansky<br></i></span>
 <span style="font-size:0.9em;">[[exam]](/files/scioly/past-exams/23-24-UTInv/RFTS-Exam.pdf)
 [[images]](/files/scioly/past-exams/23-24-UTInv/RFTS-Images.pdf)
 [[answer sheet]](/files/scioly/past-exams/23-24-UTInv/RFTS-AnsSheet.pdf)
@@ -59,6 +61,7 @@ author_profile: true
 
 ### MIT Invitational 2023-2024
 
+<span style="font-size:0.8em; color:gray;"><i>Written with April Cheng and Sahil Pontula<br></i></span>
 <span style="font-size:0.9em;">[[exam]](/files/scioly/past-exams/23-24-MITInv/Astro-Exam.pdf)
 [[images]](/files/scioly/past-exams/23-24-MITInv/Astro-Images.pdf)
 [[answer sheet]](/files/scioly/past-exams/23-24-MITInv/Astro-AnsSheet.pdf)
@@ -69,6 +72,7 @@ author_profile: true
 
 ### MIT Invitational 2019-2020
 
+<span style="font-size:0.8em; color:gray;"><i>Written with Dhruva Karkada, Antonio Frigo, and Asher Noel<br></i></span>
 <span style="font-size:0.9em;">[[exam]](/files/scioly/past-exams/19-20-MITInv/Astro-Exam.pdf)
 [[images]](/files/scioly/past-exams/19-20-MITInv/Astro-Images.pdf)
 [[key]](/files/scioly/past-exams/19-20-MITInv/Astro-Key.pdf)
@@ -77,6 +81,7 @@ author_profile: true
 
 ### UT Invitational 2019-2020
 
+<span style="font-size:0.8em; color:gray;"><i>Written with Dhruva Karkada<br></i></span>
 <span style="font-size:0.9em;">[[exam]](/files/scioly/past-exams/19-20-UTInv/Astro-Exam.pdf)
 [[key]](/files/scioly/past-exams/19-20-UTInv/Astro-Key.pdf)</span>
 
@@ -84,6 +89,7 @@ author_profile: true
 
 ### MIT Invitational 2018-2019
 
+<span style="font-size:0.8em; color:gray;"><i>Written with Dhruva Karkada and Donna Young<br></i></span>
 <span style="font-size:0.9em;">[[exam]](/files/scioly/past-exams/18-19-MITInv/Astro-Exam.pdf)
 [[images]](/files/scioly/past-exams/18-19-MITInv/Astro-Images.pdf)
 [[key]](/files/scioly/past-exams/18-19-MITInv/Astro-Key.pdf)
@@ -91,6 +97,7 @@ author_profile: true
 
 ### UT Invitational 2018-2019
 
+<span style="font-size:0.8em; color:gray;"><i>Written with Dhruva Karkada<br></i></span>
 <span style="font-size:0.9em;">[[exam]](/files/scioly/past-exams/18-19-UTInv/Astro-Exam.pdf)
 [[key]](/files/scioly/past-exams/18-19-UTInv/Astro-Key.pdf)</span>
 
@@ -98,6 +105,7 @@ author_profile: true
 
 ### Nationals 2022-2023
 
+<span style="font-size:0.8em; color:gray;"><i>Written with Connor Todd<br></i></span>
 <span style="font-size:0.9em;">[[exam]](/files/scioly/past-exams/22-23-Nats/SS-Exam.pdf)
 [[images]](/files/scioly/past-exams/22-23-Nats/SS-Images.pdf)
 [[answer sheet]](/files/scioly/past-exams/22-23-Nats/SS-AnsSheet.pdf)
@@ -124,12 +132,14 @@ author_profile: true
 
 ### National Invitational 2021-2022
 
+<span style="font-size:0.8em; color:gray;"><i>Written with Connor Todd and Donna Young<br></i></span>
 <span style="font-size:0.9em;">[[exam]](/files/scioly/past-exams/21-22-NatInv/SS-Exam.pdf)
 [[images]](/files/scioly/past-exams/21-22-NatInv/SS-Images.pdf)
 [[key]](/files/scioly/past-exams/21-22-NatInv/SS-Key.pdf)</span>
 
 ### UT Regional 2021-2022
 
+<span style="font-size:0.8em; color:gray;"><i>Written with Connor Todd<br></i></span>
 <span style="font-size:0.9em;">[[exam]](/files/scioly/past-exams/21-22-UTReg/SS-Exam.pdf)
 [[images]](/files/scioly/past-exams/21-22-UTReg/SS-Images.pdf)
 [[answer sheet]](/files/scioly/past-exams/21-22-UTReg/SS-AnsSheet.pdf)
