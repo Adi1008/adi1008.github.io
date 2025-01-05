@@ -173,6 +173,26 @@
    },
    {
     "tournament": "MIT Invitational",
+    "season": "2020-2021",
+    "event": "Astronomy",
+    "notes": "Written with April Cheng and Sahil Pontula. The introduction mistakenly says that this exam is for the MIT Invitational 2020, but it is actually for the MIT Invitational 2021.",
+    "links": [
+      {
+        "label": "exam",
+        "url": "/files/scioly/past-exams/20-21-MITInv/Astro-Exam.pdf"
+      },
+      {
+        "label": "images",
+        "url": "/files/scioly/past-exams/20-21-MITInv/Astro-Images.pdf"
+      },
+      {
+        "label": "key",
+        "url": "/files/scioly/past-exams/20-21-MITInv/Astro-Key.pdf"
+      }
+    ]
+   },
+   {
+    "tournament": "MIT Invitational",
     "season": "2019-2020",
     "event": "Astronomy",
     "notes": "Written with Dhruva Karkada, Antonio Frigo, and Asher Noel",
@@ -444,6 +464,42 @@
       {
         "label": "key",
         "url": "/files/scioly/past-exams/18-19-UTInv/SS-Key.pdf"
+      }
+    ]
+  },
+  {
+    "tournament": "UT Regional",
+    "season": "2019-2020",
+    "event": "Density Lab",
+    "notes": "",
+    "links": [
+      {
+        "label": "exam",
+        "url": "/files/scioly/past-exams/19-20-UTReg/DensityLab-Exam.pdf"
+      },
+      {
+        "label": "answer sheet",
+        "url": "/files/scioly/past-exams/19-20-UTReg/DensityLab-AnsSheet.pdf"
+      },
+      {
+        "label": "key",
+        "url": "/files/scioly/past-exams/19-20-UTReg/DensityLab-Key.pdf"
+      }
+    ]
+   },
+   {
+    "tournament": "UT Invitational",
+    "season": "2019-2020",
+    "event": "Density Lab",
+    "notes": "",
+    "links": [
+      {
+        "label": "exam",
+        "url": "/files/scioly/past-exams/19-20-UTInv/DensityLab-Exam.pdf"
+      },
+      {
+        "label": "key",
+        "url": "/files/scioly/past-exams/19-20-UTInv/DensityLab-Key.pdf"
       }
     ]
   }
