@@ -1,6 +1,9 @@
 // Get base URL for fetching data
 const baseUrl = window.location.origin;
 
+// Event(s) that should appear first (will depend on the year)
+const priorityEvents = ["Reach for the Stars"];
+
 // Fetch exam data from JSON file
 fetch(`${baseUrl}/files/exams.json`)
   .then(res => {
@@ -74,12 +77,28 @@ function buildResults(exams) {
   }, {});
 
   // Create output for each event
-  Object.entries(examsByEvent).sort().forEach(([event, eventExams]) => {
+  Object.entries(examsByEvent)
+    .sort(([eventA], [eventB]) => {
+      const indexA = priorityEvents.indexOf(eventA);
+      const indexB = priorityEvents.indexOf(eventB);
+      
+      // If both events are in priority list, sort by priority order
+      if (indexA >= 0 && indexB >= 0) {
+        return indexA - indexB;
+      }
+      // If only eventA is in priority list, it comes first
+      if (indexA >= 0) return -1;
+      // If only eventB is in priority list, it comes first
+      if (indexB >= 0) return 1;
+      // If neither are in priority list, sort alphabetically
+      return eventA.localeCompare(eventB);
+    })
+    .forEach(([event, eventExams]) => {
     const eventDiv = document.createElement('div');
     eventDiv.className = 'event-group';
     
     // Add event header
-    eventDiv.innerHTML = `<h2>${event}</h2>`;
+    eventDiv.innerHTML = `<h2>${event}${priorityEvents.includes(event) ? ' (★)' : ''}</h2>`;
 
     // Sort exams by season (newest first) and tournament
     eventExams.sort((a, b) => {
