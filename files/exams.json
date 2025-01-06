@@ -100,6 +100,30 @@
     ]
   },
   {
+    "tournament": "UT Invitational",
+    "season": "2020-2021",
+    "event": "Reach for the Stars",
+    "notes": "Written with Antonio Frigo, April Cheng, Dhruva Karkada, Pranit Mohnot, Robert Lee, and Sahil Pontula. This was originally administered through Scilympiad and the test was typeset by Robert.",
+    "links": [
+      {
+        "label": "exam",
+        "url": "/files/scioly/past-exams/20-21-UTInv/RFTS-Exam.pdf"
+      },
+      {
+        "label": "images",
+        "url": "/files/scioly/past-exams/20-21-UTInv/RFTS-Images.pdf"
+      },
+      {
+        "label": "answer sheet",
+        "url": "/files/scioly/past-exams/20-21-UTInv/RFTS-AnsSheet.pdf"
+      },
+      {
+        "label": "key",
+        "url": "/files/scioly/past-exams/20-21-UTInv/RFTS-Key.pdf"
+      }
+    ]
+  },
+  {
     "tournament": "UT Regional",
     "season": "2019-2020",
     "event": "Reach for the Stars",
@@ -188,6 +212,30 @@
       {
         "label": "key",
         "url": "/files/scioly/past-exams/20-21-MITInv/Astro-Key.pdf"
+      }
+    ]
+   },
+   {
+    "tournament": "UT Invitational",
+    "season": "2020-2021",
+    "event": "Astronomy",
+    "notes": "Written with Antonio Frigo, April Cheng, Dhruva Karkada, Pranit Mohnot, Robert Lee, and Sahil Pontula. This was originally administered through Scilympiad and the test was typeset by Robert.",
+    "links": [
+      {
+        "label": "exam",
+        "url": "/files/scioly/past-exams/20-21-UTInv/Astro-Exam.pdf"
+      },
+      {
+        "label": "images",
+        "url": "/files/scioly/past-exams/20-21-UTInv/Astro-Images.pdf"
+      },
+      {
+        "label": "answer sheet", 
+        "url": "/files/scioly/past-exams/20-21-UTInv/Astro-AnsSheet.pdf"
+      },
+      {
+        "label": "key",
+        "url": "/files/scioly/past-exams/20-21-UTInv/Astro-Key.pdf"
       }
     ]
    },
@@ -464,6 +512,38 @@
       {
         "label": "key",
         "url": "/files/scioly/past-exams/18-19-UTInv/SS-Key.pdf"
+      }
+    ]
+  },
+  {
+    "tournament": "UT Regional",
+    "season": "2020-2021",
+    "event": "Density Lab",
+    "notes": "",
+    "links": [
+      {
+        "label": "exam",
+        "url": "/files/scioly/past-exams/20-21-UTReg/DensityLab-Exam.pdf"
+      },
+      {
+        "label": "key",
+        "url": "/files/scioly/past-exams/20-21-UTReg/DensityLab-Key.pdf"
+      }
+    ]
+   },
+  {
+    "tournament": "UT Invitational",
+    "season": "2020-2021",
+    "event": "Density Lab",
+    "notes": "Written with Jacob Sass and  Alyssa Chamseddine",
+    "links": [
+      {
+        "label": "exam",
+        "url": "/files/scioly/past-exams/20-21-UTInv/DensityLab-Exam.pdf"
+      },
+      {
+        "label": "key",
+        "url": "/files/scioly/past-exams/20-21-UTInv/DensityLab-Key.pdf"
       }
     ]
   },
