@@ -66,7 +66,7 @@ function buildResults(exams) {
     div.className = 'exam-entry';
     div.innerHTML = `
       <h3>${exam.tournament} ${exam.season}: ${exam.event}</h3>
-      ${exam.notes ? `<p style="font-size:0.8em; color:gray;"><i>${exam.notes}</i></p>` : ''}
+      ${exam.notes ? `<span style="font-size:0.8em; color:gray; display:block; margin: 8px 0;"><i>${exam.notes}</i></span>` : ''}
       <div class="links" style="font-size:0.9em;">
         ${exam.links.map(link => `<a href="${link.url}">[${link.label}]</a>`).join(' ')}
       </div>
