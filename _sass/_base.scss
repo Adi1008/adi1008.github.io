@@ -313,3 +313,33 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   -webkit-transition: $global-transition;
   transition: $global-transition;
 }
+
+// For exam formatting
+
+.event-group {
+  margin-bottom: 2em;
+  
+  h2 {
+    margin-bottom: -0.75em;  // Reduce space between event header and first exam
+  }
+}
+
+.exam-entry {
+  margin-bottom: 1em;
+}
+
+.exam-entry h3 {
+  margin-bottom: 0.5em;
+}
+
+.exam-entry .notes {
+  font-size: 0.8em;
+  color: gray;
+  margin: 8px 0;
+  font-style: italic;
+}
+
+.exam-entry .links {
+  font-size: 0.9em;
+}
+

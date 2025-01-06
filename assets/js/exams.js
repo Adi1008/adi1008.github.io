@@ -57,20 +57,50 @@ function buildResults(exams) {
   const container = document.getElementById('exams-container');
   container.innerHTML = '';
 
-  exams.filter(exam =>
+  // Filter exams based on selection
+  const filteredExams = exams.filter(exam =>
     (selectedSeasons.includes('All seasons') || selectedSeasons.includes(exam.season)) &&
     (selectedTournaments.includes('All tournaments') || selectedTournaments.includes(exam.tournament)) &&
     (selectedEvents.includes('All events') || selectedEvents.includes(exam.event))
-  ).forEach(exam => {
-    const div = document.createElement('div');
-    div.className = 'exam-entry';
-    div.innerHTML = `
-      <h3>${exam.tournament} ${exam.season}: ${exam.event}</h3>
-      ${exam.notes ? `<span style="font-size:0.8em; color:gray; display:block; margin: 8px 0;"><i>${exam.notes}</i></span>` : ''}
-      <div class="links" style="font-size:0.9em;">
-        ${exam.links.map(link => `<a href="${link.url}">[${link.label}]</a>`).join(' ')}
-      </div>
-    `;
-    container.appendChild(div);
+  );
+
+  // Group exams by event
+  const examsByEvent = filteredExams.reduce((groups, exam) => {
+    if (!groups[exam.event]) {
+      groups[exam.event] = [];
+    }
+    groups[exam.event].push(exam);
+    return groups;
+  }, {});
+
+  // Create output for each event
+  Object.entries(examsByEvent).sort().forEach(([event, eventExams]) => {
+    const eventDiv = document.createElement('div');
+    eventDiv.className = 'event-group';
+    
+    // Add event header
+    eventDiv.innerHTML = `<h2>${event}</h2>`;
+
+    // Sort exams by season (newest first) and tournament
+    eventExams.sort((a, b) => {
+      const seasonDiff = b.season.localeCompare(a.season);
+      return seasonDiff !== 0 ? seasonDiff : a.tournament.localeCompare(b.tournament);
+    });
+
+    // Add each exam under the event
+    eventExams.forEach(exam => {
+      const examDiv = document.createElement('div');
+      examDiv.className = 'exam-entry';
+      examDiv.innerHTML = `
+        <h3>${exam.tournament} ${exam.season}</h3>
+        ${exam.notes ? `<span style="font-size:0.8em; color:gray; display:block; margin: 8px 0;"><i>${exam.notes}</i></span>` : ''}
+        <div class="links" style="font-size:0.9em;">
+          ${exam.links.map(link => `<a href="${link.url}">[${link.label}]</a>`).join(' ')}
+        </div>
+      `;
+      eventDiv.appendChild(examDiv);
+    });
+
+    container.appendChild(eventDiv);
   });
 }
