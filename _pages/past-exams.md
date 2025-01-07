@@ -5,7 +5,7 @@ permalink: /scioly/past-exams
 author_profile: true
 ---
 
-Filter your search by season, tournament, and/or event. Hold down ⌘ (Mac) or Ctrl (Windows) to select multiple values in each filter.
+This pages contains exams I have written (or helped write) in the past. Filter your search by season, tournament, and/or event. Hold down ⌘ (Mac) or Ctrl (Windows) to select multiple values in each filter.
 
 Events that I am actively writing tests for this season are marked with a <span class="priority-star">★</span> and are at the top of the page. Tests with a <span class="favorite-heart">♥</span> are ones that I think are particularly well-written or have lots of sentimental value to me.
 
