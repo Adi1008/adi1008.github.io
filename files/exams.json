@@ -396,6 +396,27 @@
     ]
    },
    {
+    "tournament": "Katy Regional Tournament",
+    "season": "2014-2015",
+    "event": "Solar System",
+    "notes": "The first test I ever wrote :)",
+    "favorite": true,
+    "links": [
+      {
+        "label": "exam",
+        "url": "/files/scioly/past-exams/14-15-KRT/SS-Exam.pdf"
+      },
+      {
+        "label": "images",
+        "url": "/files/scioly/past-exams/14-15-KRT/SS-Images.pdf"
+      },
+      {
+        "label": "key",
+        "url": "/files/scioly/past-exams/14-15-KRT/SS-Key.pdf"
+      }
+    ]
+   },
+   {
     "tournament": "Seven Lakes Invitational",
     "season": "2017-2018",
     "event": "Astronomy",
@@ -692,6 +713,26 @@
       {
         "label": "key",
         "url": "/files/scioly/past-exams/19-20-UTInv/DensityLab-Key.pdf"
+      }
+    ]
+  },
+  {
+    "tournament": "UT Regional",
+    "season": "2021-2022",
+    "event": "Crave the Wave",
+    "notes": "",
+    "links": [
+      {
+        "label": "exam",
+        "url": "/files/scioly/past-exams/21-22-UTReg/CraveTheWave-Exam.pdf"
+      },
+      {
+        "label": "answer sheet",
+        "url": "/files/scioly/past-exams/21-22-UTReg/CraveTheWave-AnsSheet.pdf"
+      },
+      {
+        "label": "key",
+        "url": "/files/scioly/past-exams/21-22-UTReg/CraveTheWave-Key.pdf"
       }
     ]
   }
