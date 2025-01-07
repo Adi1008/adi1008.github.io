@@ -324,10 +324,83 @@
     ]
   },
   {
+    "tournament": "Solon Invitational",
+    "season": "2019-2020",
+    "event": "Astronomy",
+    "notes": "",
+    "links": [
+      {
+        "label": "exam",
+        "url": "/files/scioly/past-exams/19-20-Solon/Astro-Exam.pdf"
+      },
+      {
+        "label": "images",
+        "url": "/files/scioly/past-exams/19-20-Solon/Astro-Images.pdf"
+      },
+      {
+        "label": "answer sheet", 
+        "url": "/files/scioly/past-exams/19-20-Solon/Astro-AnsSheet.pdf"
+      },
+      {
+        "label": "key",
+        "url": "/files/scioly/past-exams/19-20-Solon/Astro-Key.pdf"
+      }
+    ]
+  },
+  {
+    "tournament": "Solon Invitational",
+    "season": "2018-2019",
+    "event": "Astronomy",
+    "notes": "",
+    "links": [
+      {
+        "label": "exam",
+        "url": "/files/scioly/past-exams/18-19-Solon/Astro-Exam.pdf"
+      },
+      {
+        "label": "images",
+        "url": "/files/scioly/past-exams/18-19-Solon/Astro-Images.pdf"
+      },
+      {
+        "label": "answer sheet", 
+        "url": "/files/scioly/past-exams/18-19-Solon/Astro-AnsSheet.pdf"
+      },
+      {
+        "label": "key",
+        "url": "/files/scioly/past-exams/18-19-Solon/Astro-Key.pdf"
+      }
+    ]
+  },
+  {
+    "tournament": "Katy Regional Tournament",
+    "season": "2017-2018",
+    "event": "Astronomy",
+    "notes": "",
+    "links": [
+      {
+        "label": "exam",
+        "url": "/files/scioly/past-exams/17-18-KRT/Astro-Exam.pdf"
+      },
+      {
+        "label": "images",
+        "url": "/files/scioly/past-exams/17-18-KRT/Astro-Images.pdf"
+      },
+      {
+        "label": "answer sheet", 
+        "url": "/files/scioly/past-exams/17-18-KRT/Astro-AnsSheet.pdf"
+      },
+      {
+        "label": "key",
+        "url": "/files/scioly/past-exams/17-18-KRT/Astro-Key.pdf"
+      }
+    ]
+   },
+  {
     "tournament": "Nationals",
     "season": "2022-2023",
     "event": "Solar System",
-    "notes": "Written with Connor Todd",
+    "notes": "Written with Connor Todd. Probably my best and favorite test ever.",
+    "favorite": true,
     "links": [
       {
         "label": "exam",
@@ -492,6 +565,7 @@
     "season": "2018-2019",
     "event": "Solar System",
     "notes": "",
+    "favorite": true,
     "links": [
       {
         "label": "exam",
@@ -532,6 +606,7 @@
     "season": "2020-2021",
     "event": "Density Lab",
     "notes": "",
+    "favorite": true,
     "links": [
       {
         "label": "exam",
@@ -547,7 +622,7 @@
     "tournament": "UT Invitational",
     "season": "2020-2021",
     "event": "Density Lab",
-    "notes": "Written with Jacob Sass and  Alyssa Chamseddine",
+    "notes": "Written with Jacob Sass and Alyssa Chamseddine",
     "links": [
       {
         "label": "exam",
@@ -564,6 +639,7 @@
     "season": "2019-2020",
     "event": "Density Lab",
     "notes": "",
+    "favorite": true,
     "links": [
       {
         "label": "exam",
