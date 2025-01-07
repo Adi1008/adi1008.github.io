@@ -316,8 +316,12 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
 
 // For exam formatting
 
-.priority-marker {
-  font-weight: normal;
+.priority-star {
+  color: gold;
+}
+
+.favorite-heart {
+  color: pink;
 }
 
 .event-group {
@@ -347,3 +351,6 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   font-size: 0.9em;
 }
 
+select[multiple] {
+  margin-bottom: -0.75em;  // Reduce space below select elements
+}

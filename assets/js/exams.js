@@ -15,8 +15,31 @@ fetch(`${baseUrl}/files/exams.json`)
   .then(exams => {
     // Get unique values for filters
     const seasons = ['All seasons', ...new Set(exams.map(e => e.season))].sort().reverse();
-    const tournaments = ['All tournaments', ...new Set(exams.map(e => e.tournament))].sort();
-    const events = ['All events', ...new Set(exams.map(e => e.event))].sort();
+    // const events = ['All events', ...new Set(exams.map(e => e.event))].sort();
+    
+    // Count event frequencies
+    const eventFrequencies = exams.reduce((freq, exam) => {
+        freq[exam.event] = (freq[exam.event] || 0) + 1;
+        return freq;
+    }, {});
+    
+    // Sort event by frequency
+    const events = ['All events', 
+        ...Array.from(new Set(exams.map(e => e.event)))
+        .sort((a, b) => eventFrequencies[b] - eventFrequencies[a])
+    ];
+
+    // Count tournament frequencies
+    const tournamentFrequencies = exams.reduce((freq, exam) => {
+        freq[exam.tournament] = (freq[exam.tournament] || 0) + 1;
+        return freq;
+    }, {});
+    
+    // Sort tournaments by frequency
+    const tournaments = ['All tournaments', 
+        ...Array.from(new Set(exams.map(e => e.tournament)))
+        .sort((a, b) => tournamentFrequencies[b] - tournamentFrequencies[a])
+    ];
 
     // Populate dropdowns
     populateSelect('season-select', seasons);
@@ -98,7 +121,7 @@ function buildResults(exams) {
     eventDiv.className = 'event-group';
     
     // Add event header
-    eventDiv.innerHTML = `<h2>${event}${priorityEvents.includes(event) ? ' (★)' : ''}</h2>`;
+    eventDiv.innerHTML = `<h2>${event}${priorityEvents.includes(event) ? '<span class="priority-star"> ★</span>' : ''}</h2>`;
 
     // Sort exams by season (newest first) and tournament
     eventExams.sort((a, b) => {
@@ -111,7 +134,9 @@ function buildResults(exams) {
       const examDiv = document.createElement('div');
       examDiv.className = 'exam-entry';
       examDiv.innerHTML = `
-        <h3>${exam.tournament} ${exam.season}</h3>
+        <h3>
+          ${exam.tournament} ${exam.season} ${exam.favorite ? '<span class="favorite-heart"> ♥</span>' : ''}
+        </h3>
         ${exam.notes ? `<span style="font-size:0.8em; color:gray; display:block; margin: 8px 0;"><i>${exam.notes}</i></span>` : ''}
         <div class="links" style="font-size:0.9em;">
           ${exam.links.map(link => `<a href="${link.url}">[${link.label}]</a>`).join(' ')}
