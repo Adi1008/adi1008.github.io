@@ -395,6 +395,30 @@
       }
     ]
    },
+   {
+    "tournament": "Seven Lakes Invitational",
+    "season": "2017-2018",
+    "event": "Astronomy",
+    "notes": "Written with Alvin Xu, Hrishikesh Srinivasan, Naman Mehndiratta, and Aadhithya Sivakumar",
+    "links": [
+      {
+        "label": "exam",
+        "url": "/files/scioly/past-exams/17-18-SevenLakesInv/Astro-Exam.pdf"
+      },
+      {
+        "label": "images",
+        "url": "/files/scioly/past-exams/17-18-SevenLakesInv/Astro-Images.pdf"
+      },
+      {
+        "label": "answer sheet", 
+        "url": "/files/scioly/past-exams/17-18-SevenLakesInv/Astro-AnsSheet.pdf"
+      },
+      {
+        "label": "key",
+        "url": "/files/scioly/past-exams/17-18-SevenLakesInv/Astro-Key.pdf"
+      }
+    ]
+  }, 
   {
     "tournament": "Nationals",
     "season": "2022-2023",
