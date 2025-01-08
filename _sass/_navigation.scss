@@ -177,6 +177,18 @@
   min-width: 250px;
   background: $background-color;
 
+  button {
+    position: absolute;
+    height: 100%;
+    right: 0;
+    padding: 0 0.5rem;
+    border: 0;
+    outline: none;
+    background-color: #fff !important; // Force white background
+    border: 1px solid $border-color;   // Optional: add subtle border
+    cursor: pointer;
+  }
+  
   a {
     display: block;
     margin: 0 1rem;
