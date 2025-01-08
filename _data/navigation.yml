@@ -5,7 +5,7 @@ main:
   - title: "Science Olympiad"
     url: /scioly/  # Add this line
     children:
-      - title: "Solar System Resources"
+      - title: "Solar System"
         url: /scioly/solar-system
       - title: "Past Exams"
         url: /scioly/past-exams

@@ -472,6 +472,7 @@ select[multiple] {
     padding: 0;
     background: #fff;
     flex-direction: column !important; // ensure vertical stacking
+    max-width: 90vw; // Prevent horizontal overflow
     
     li {
       display: block !important;
@@ -491,6 +492,9 @@ select[multiple] {
       text-decoration: none;
       margin: 0 !important;
       box-sizing: border-box;
+      white-space: normal;
+      word-wrap: break-word;    // Break long words
+      overflow-wrap: break-word;
       
       &:hover {
         color: $primary-color;
