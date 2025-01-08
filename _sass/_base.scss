@@ -450,3 +450,52 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
 select[multiple] {
   margin-bottom: -0em;  // Reduce space below select elements
 }
+
+// for the dropdown menu
+.masthead {
+  .dropdown {
+    position: relative;
+    
+    // Show dropdown on hover only
+    &:hover .dropdown-menu {
+      display: block; // remove the !important here if needed
+    }
+  }
+
+  .dropdown-menu {
+    display: none; // hidden by default
+    position: absolute; 
+    top: 100%;
+    left: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    flex-direction: column !important; // ensure vertical stacking
+    
+    li {
+      display: block !important;
+      float: none !important;
+      width: 100% !important;
+      margin: 0 !important;
+      padding: 0 !important;
+      text-indent: 0 !important; // remove unintended indent
+    }
+
+    a {
+      display: block !important;
+      padding: 0.75em 1.5em;
+      color: $text-color;
+      font-weight: normal;
+      text-align: left !important; 
+      text-decoration: none;
+      margin: 0 !important;
+      box-sizing: border-box;
+      
+      &:hover {
+        color: $primary-color;
+        background: #f8f9f9;
+      }
+    }
+  }
+}

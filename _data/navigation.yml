@@ -1,11 +1,13 @@
 # main links links
 main:
-    
   - title: "Research"
     url: /research/
-    
   - title: "Science Olympiad"
-    url: /scioly/
-
+    url: /scioly/  # Add this line
+    children:
+      - title: "Solar System Resources"
+        url: /scioly/solar-system
+      - title: "Past Exams"
+        url: /scioly/past-exams
   - title: "Blog"
     url: /blog/
