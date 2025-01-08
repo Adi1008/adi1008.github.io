@@ -14,12 +14,12 @@ Along with [Connor Todd](https://www.linkedin.com/in/connor-todd-548467171/), I 
 We are always looking for new members. If you are interested in joining the A-Team, feel free to reach out to [me](mailto:adityashah108@gmail.com), [Connor](mailto:cwtodd@umich.edu), [Donna](mailto:dlyoung.nso@gmail.com), [Tad](mailto:tkomacek@umd.edu), or any other member of the A-Team you may know. We'd love to have you!
 
 <div class="topic-grid">
-  <a href="/scioly/solar-system" class="topic-card">
-    <img src="/images/enceladus.jpg" alt="Solar System Resources">
-    <h2>Solar System Resources</h2>
-  </a>
   <a href="/scioly/past-exams" class="topic-card">
     <img src="/images/mitastro2019.jpg" alt="Past Exams">
     <h2>Past Exams</h2>
+  </a>
+  <a href="/scioly/solar-system" class="topic-card">
+    <img src="/images/enceladus.jpg" alt="Solar System Resources">
+    <h2>Solar System Resources</h2>
   </a>
 </div>
