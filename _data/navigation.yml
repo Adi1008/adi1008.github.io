@@ -2,8 +2,10 @@
 main:
   - title: "Research"
     url: /research/
+  - title: "Teaching"
+    url: /teaching/
   - title: "Science Olympiad"
-    url: /scioly/  # Add this line
+    url: /scioly/
     children:
       - title: "Past Exams"
         url: /scioly/past-exams
