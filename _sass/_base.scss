@@ -503,3 +503,59 @@ select[multiple] {
     }
   }
 }
+
+.carousel {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  overflow: hidden;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.quote {
+  display: none;
+  font-style: italic;
+  font-size: 0.8em;
+  color: #808080;
+  opacity: 0;
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+  transform: translateY(20px);
+}
+
+.quote.active {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.carousel-controls {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 0.6em;
+
+  button {
+    background-color: #f9f9f9;
+    color: #808080;
+    border: none;
+    padding: 5px 10px;  // Smaller padding
+    margin: 2px;  // Closer to the carousel
+    border-radius: 1%;  // Circular buttons
+    width: 30%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #0056b3;
+    }
+
+    i {
+      font-size: 1.2em;  // Icon size
+    }
+  }
+}
