@@ -1,5 +1,8 @@
+// Get base URL for fetching data
+const baseUrl = window.location.origin;
+
 document.addEventListener("DOMContentLoaded", () => {
-    fetch('/files/quotes.json')
+    fetch(`${baseUrl}/files/quotes.json`)
       .then(response => response.json())
       .then(quotes => {
         const carousel = document.querySelector('.carousel');

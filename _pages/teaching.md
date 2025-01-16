@@ -5,7 +5,7 @@ permalink: /teaching/
 author_profile: true
 ---
 
-<script src="{{ '/assets/js/carousel.js' | relative_url }}"></script>
+<script defer src="/assets/js/carousel.js"></script>
 
 I really enjoy teaching. It helps me understand the material better, and it forces me to be intentional about explaining concepts clearly and concisely. And above all, working with students and helping them grow feels meaningful and fulfilling in a way that few other jobs do.
 
