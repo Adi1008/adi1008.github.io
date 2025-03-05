@@ -1,5 +1,29 @@
 [
   {
+    "tournament": "UT Regional",
+    "season": "2024-2025",
+    "event": "Reach for the Stars",
+    "notes": "",
+    "links": [
+      {
+        "label": "exam",
+        "url": "/files/scioly/past-exams/24-25-UTReg/RFTS-Exam.pdf"
+      },
+      {
+        "label": "images",
+        "url": "/files/scioly/past-exams/24-25-UTReg/RFTS-Images.pdf"
+      },
+      {
+        "label": "answer sheet",
+        "url": "/files/scioly/past-exams/24-25-UTReg/RFTS-AnsSheet.pdf"
+      },
+      {
+        "label": "key",
+        "url": "/files/scioly/past-exams/24-25-UTReg/RFTS-Key.pdf"
+      }
+    ]
+  },
+  {
     "tournament": "UT Invitational",
     "season": "2024-2025",
     "event": "Reach for the Stars",
