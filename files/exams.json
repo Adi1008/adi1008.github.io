@@ -1,5 +1,29 @@
 [
   {
+    "tournament": "Nationals",
+    "season": "2024-2025",
+    "event": "Reach for the Stars",
+    "notes": "Written with Connor Todd",
+    "links": [
+      {
+        "label": "exam",
+        "url": "/files/scioly/past-exams/24-25-Nats/RFTS-Exam.pdf"
+      },
+      {
+        "label": "images",
+        "url": "/files/scioly/past-exams/24-25-Nats/RFTS-Images.pdf"
+      },
+      {
+        "label": "answer sheet",
+        "url": "/files/scioly/past-exams/24-25-Nats/RFTS-AnsSheet.pdf"
+      },
+      {
+        "label": "key",
+        "url": "/files/scioly/past-exams/24-25-Nats/RFTS-Key.pdf"
+      }
+    ]
+  },
+  {
     "tournament": "UT Regional",
     "season": "2024-2025",
     "event": "Reach for the Stars",
