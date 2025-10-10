@@ -2,7 +2,7 @@
 const baseUrl = window.location.origin;
 
 // Event(s) that should appear first (will depend on the year)
-const priorityEvents = ["Reach for the Stars"];
+const priorityEvents = ["Solar System"];
 
 // Fetch exam data from JSON file
 fetch(`${baseUrl}/files/exams.json`)

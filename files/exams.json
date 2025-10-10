@@ -1,5 +1,32 @@
 [
   {
+    "tournament": "Sample Exam and Event Guide",
+    "season": "2025-2026",
+    "event": "Solar System",
+    "links": [
+      {
+        "label": "blank exam",
+        "url": "/files/scioly/past-exams/25-26-SampleTest/SS-Exam.pdf"
+      },
+      {
+        "label": "images",
+        "url": "/files/scioly/past-exams/25-26-SampleTest/SS-Images.pdf"
+      },
+      {
+        "label": "answer sheet",
+        "url": "/files/scioly/past-exams/25-26-SampleTest/SS-AnsSheet.pdf"
+      },
+      {
+        "label": "key",
+        "url": "/files/scioly/past-exams/25-26-SampleTest/SS-Key.pdf"
+      },
+      {
+        "label": "annotated exam and event guide",
+        "url": "/files/scioly/past-exams/25-26-SampleTest/SS-EventGuide.pdf"
+      }
+    ]
+  },
+  {
     "tournament": "Nationals",
     "season": "2024-2025",
     "event": "Reach for the Stars",
