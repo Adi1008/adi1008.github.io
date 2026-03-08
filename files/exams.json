@@ -1,5 +1,28 @@
 [
   {
+    "tournament": "UT Regional",
+    "season": "2025-2026",
+    "event": "Solar System",
+    "links": [
+      {
+        "label": "exam",
+        "url": "/files/scioly/past-exams/25-26-UTReg/SS-Exam.pdf"
+      },
+      {
+        "label": "images",
+        "url": "/files/scioly/past-exams/25-26-UTReg/SS-Images.pdf"
+      },
+      {
+        "label": "answer sheet",
+        "url": "/files/scioly/past-exams/25-26-UTReg/SS-AnsSheet.pdf"
+      },
+      {
+        "label": "key",
+        "url": "/files/scioly/past-exams/25-26-UTReg/SS-Key.pdf"
+      }
+    ]
+  },
+  {
     "tournament": "UT Invitational",
     "season": "2025-2026",
     "event": "Solar System",
