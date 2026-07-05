@@ -35,7 +35,7 @@ export function QuoteCarousel({ quotes }: { quotes: Quote[] }) {
     'inline-flex h-8 w-8 items-center justify-center rounded-full bg-zinc-100 text-zinc-600 transition-colors hover:bg-zinc-200 dark:bg-zinc-800 dark:text-zinc-300 dark:hover:bg-zinc-700'
 
   return (
-    <div className="rounded-2xl bg-zinc-50/40 p-6 ring-1 ring-zinc-200/50 ring-inset dark:bg-zinc-950/40 dark:ring-zinc-800/50">
+    <div className="rounded-2xl bg-zinc-50/40 p-5 ring-1 ring-zinc-200/50 ring-inset dark:bg-zinc-950/40 dark:ring-zinc-800/50">
       <div className="flex items-center justify-between">
         <p className="text-xs tracking-wide text-zinc-400 uppercase dark:text-zinc-500">
           What students say

@@ -65,8 +65,8 @@ function FilterGroup({
               onClick={() => onToggle(option)}
               className={
                 isActive
-                  ? 'rounded-full bg-zinc-900 px-2.5 py-0.5 text-sm text-zinc-50 dark:bg-zinc-100 dark:text-zinc-900'
-                  : 'rounded-full bg-zinc-100 px-2.5 py-0.5 text-sm text-zinc-600 transition-colors hover:bg-zinc-200 dark:bg-zinc-800 dark:text-zinc-300 dark:hover:bg-zinc-700'
+                  ? 'rounded-full bg-zinc-900 px-2.5 py-0.5 text-xs text-zinc-50 transition-colors dark:bg-zinc-100 dark:text-zinc-900'
+                  : 'rounded-full bg-zinc-100 px-2.5 py-0.5 text-xs text-zinc-600 transition-colors hover:bg-zinc-200 dark:bg-zinc-800 dark:text-zinc-300 dark:hover:bg-zinc-700'
               }
             >
               {option}
@@ -133,7 +133,7 @@ export function ExamBrowser({ exams }: { exams: Exam[] }) {
 
   return (
     <div>
-      <div className="space-y-4 rounded-2xl bg-zinc-50/40 p-4 ring-1 ring-zinc-200/50 ring-inset dark:bg-zinc-950/40 dark:ring-zinc-800/50">
+      <div className="space-y-3.5 rounded-2xl bg-zinc-50/40 p-4 ring-1 ring-zinc-200/50 ring-inset dark:bg-zinc-950/40 dark:ring-zinc-800/50">
         <FilterGroup
           label="Season"
           options={seasonOptions}
@@ -171,8 +171,8 @@ export function ExamBrowser({ exams }: { exams: Exam[] }) {
             : a.tournament.localeCompare(b.tournament)
         })
         return (
-          <section key={event} className="mt-10">
-            <h2 className="mb-4 font-medium text-zinc-900 dark:text-zinc-100">
+          <section key={event} className="mt-8">
+            <h2 className="mb-3 font-medium text-zinc-900 dark:text-zinc-100">
               {event}
               {PRIORITY_EVENTS.includes(event) && (
                 <span
@@ -183,7 +183,7 @@ export function ExamBrowser({ exams }: { exams: Exam[] }) {
                 </span>
               )}
             </h2>
-            <div className="flex flex-col space-y-4">
+            <div className="flex flex-col space-y-3">
               {sorted.map((exam) => (
                 <div key={`${exam.tournament}-${exam.season}-${exam.event}`}>
                   <h3 className="text-sm font-normal text-zinc-800 dark:text-zinc-200">
