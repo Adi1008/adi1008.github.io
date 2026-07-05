@@ -1,0 +1,96 @@
+type Publication = {
+  title: string
+  authors: string
+  venue: string
+  year: string
+  doi: string
+  id: string
+}
+
+type BlogPost = {
+  title: string
+  description: string
+  date: string
+  link: string
+  uid: string
+}
+
+type SocialLink = {
+  label: string
+  link: string
+}
+
+type ResearchTopic = {
+  title: string
+  id: string
+}
+
+export const PUBLICATIONS: Publication[] = [
+  {
+    title: 'Asymmetric ether solvents for high-rate lithium metal batteries',
+    authors:
+      'Il Rok Choi, Yuelang Chen, Aditya Shah, Jacob Florian, Chad Serrao, John Holoubek, Hao Lyu, Elizabeth Zhang, Jun Ho Lee, Yangju Lin, Sang Cheol Kim, Hyunchang Park, Pu Zhang, Junyoung Lee, Jian Qin, Yi Cui, Zhenan Bao',
+    venue: 'Nature Energy',
+    year: '2025',
+    doi: 'https://doi.org/10.1038/s41560-025-01716-w',
+    id: 'pub-1',
+  },
+]
+
+export const RESEARCH_TOPICS: ResearchTopic[] = [
+  {
+    title: 'Enabling fast redox kinetics through solvent asymmetry',
+    id: 'topic-1',
+  },
+  {
+    title: 'Correlated ion transport in high concentration electrolytes',
+    id: 'topic-2',
+  },
+  {
+    title: 'Formation mechanism and structure of ion aggregates',
+    id: 'topic-3',
+  },
+  {
+    title: 'Field theory of lithium charge transfer kinetics',
+    id: 'topic-4',
+  },
+]
+
+export const BLOG_POSTS: BlogPost[] = [
+  {
+    title: 'From particles to fields: the Hubbard-Stratonovich transformation',
+    description:
+      'Turning a many-body partition function into a statistical field theory',
+    date: 'March 2025',
+    link: '/blog/hubbard-stratonovich-transformation',
+    uid: 'blog-2',
+  },
+  {
+    title: 'Planetary equilibrium temperature',
+    description:
+      'Estimating the temperature of a planet with an energy balance',
+    date: 'March 2023',
+    link: '/blog/planetary-equilibrium-temperature',
+    uid: 'blog-1',
+  },
+]
+
+export const SOCIAL_LINKS: SocialLink[] = [
+  {
+    label: 'Google Scholar',
+    link: 'https://scholar.google.com/citations?user=thYcPkYAAAAJ',
+  },
+  {
+    label: 'GitHub',
+    link: 'https://github.com/adi1008',
+  },
+  {
+    label: 'LinkedIn',
+    link: 'https://www.linkedin.com/in/adi1008',
+  },
+]
+
+export const EMAIL = 'aditya.shah@stanford.edu'
+
+export const SCHOLAR_URL =
+  'https://scholar.google.com/citations?user=thYcPkYAAAAJ'
