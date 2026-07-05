@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Stagger, Item } from '@/components/motion'
+import { LINK_CLASS } from '@/lib/utils'
 import { RESEARCH_TOPICS } from '../data'
 
 export const metadata: Metadata = {
@@ -8,8 +9,6 @@ export const metadata: Metadata = {
     'Simulation and theory of battery electrolytes: ion transport, ion aggregation, and charge transfer.',
 }
 
-const linkClass =
-  'underline decoration-zinc-300 underline-offset-2 transition-colors hover:decoration-zinc-500 dark:decoration-zinc-600 dark:hover:decoration-zinc-400'
 
 export default function Research() {
   return (
@@ -24,12 +23,12 @@ export default function Research() {
             rechargeable portable electronic devices to accelerating
             decarbonization efforts. Working with experimental collaborators
             in the{' '}
-            <a className={linkClass} href="https://baogroup.stanford.edu/">
+            <a className={LINK_CLASS} href="https://baogroup.stanford.edu/">
               Bao
             </a>{' '}
             and{' '}
             <a
-              className={linkClass}
+              className={LINK_CLASS}
               href="https://web.stanford.edu/group/cui_group/"
             >
               Cui

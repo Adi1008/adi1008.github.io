@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Stagger, Item } from '@/components/motion'
+import { LINK_CLASS } from '@/lib/utils'
 import { PUBLICATIONS, SCHOLAR_URL } from '../data'
 
 export const metadata: Metadata = {
@@ -31,7 +32,7 @@ export default function Publications() {
           <p className="mb-7 text-zinc-600 dark:text-zinc-400">
             A complete, up-to-date list can also be found on my{' '}
             <a
-              className="underline decoration-zinc-300 underline-offset-2 transition-colors hover:decoration-zinc-500 dark:decoration-zinc-600 dark:hover:decoration-zinc-400"
+              className={LINK_CLASS}
               href={SCHOLAR_URL}
             >
               Google Scholar profile
@@ -56,7 +57,7 @@ export default function Publications() {
                 <p className="text-sm text-zinc-600 dark:text-zinc-400">
                   <em>{pub.venue}</em> ({pub.year}) ·{' '}
                   <a
-                    className="underline decoration-zinc-300 underline-offset-2 transition-colors hover:decoration-zinc-500 dark:decoration-zinc-600 dark:hover:decoration-zinc-400"
+                    className={LINK_CLASS}
                     href={pub.doi}
                   >
                     doi

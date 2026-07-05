@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Stagger, Item } from '@/components/motion'
+import { LINK_CLASS } from '@/lib/utils'
 import { QuoteCarousel } from '@/components/quote-carousel'
 import quotes from '@/public/files/quotes.json'
 
@@ -9,8 +10,6 @@ export const metadata: Metadata = {
     'Teaching experience: TA for undergraduate thermodynamics and graduate statistical mechanics at Stanford.',
 }
 
-const linkClass =
-  'underline decoration-zinc-300 underline-offset-2 transition-colors hover:decoration-zinc-500 dark:decoration-zinc-600 dark:hover:decoration-zinc-400'
 
 export default function Teaching() {
   return (
@@ -31,14 +30,14 @@ export default function Teaching() {
             <p>
               During my time at Stanford, I have been a TA for{' '}
               <a
-                className={linkClass}
+                className={LINK_CLASS}
                 href="https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&academicYear=&q=CHEMENG+110B&collapse="
               >
                 CHEMENG 110B
               </a>{' '}
               (undergraduate thermodynamics) and{' '}
               <a
-                className={linkClass}
+                className={LINK_CLASS}
                 href="https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&academicYear=&q=CHEMENG+340&collapse="
               >
                 CHEMENG 340
@@ -48,7 +47,7 @@ export default function Teaching() {
               Chemical Engineering department&apos;s Outstanding TA Award and
               the university-wide{' '}
               <a
-                className={linkClass}
+                className={LINK_CLASS}
                 href="https://ctl.stanford.edu/centennial-teaching-assistant-awards"
               >
                 Centennial TA Award
@@ -59,14 +58,14 @@ export default function Teaching() {
               If you&apos;re curious, you can read students&apos; complete,
               unfiltered evaluations of my teaching for both{' '}
               <a
-                className={linkClass}
+                className={LINK_CLASS}
                 href="/files/course-evals/chemeng110b.pdf"
               >
                 CHEMENG 110B
               </a>{' '}
               and{' '}
               <a
-                className={linkClass}
+                className={LINK_CLASS}
                 href="/files/course-evals/chemeng340.pdf"
               >
                 CHEMENG 340

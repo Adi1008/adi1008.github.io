@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Stagger, Item } from '@/components/motion'
+import { LINK_CLASS } from '@/lib/utils'
 
 export const metadata: Metadata = {
   title: 'Solar System',
@@ -8,8 +9,6 @@ export const metadata: Metadata = {
     'Resources for the Science Olympiad Solar System event: webinars, past exams, websites, and textbooks.',
 }
 
-const linkClass =
-  'underline decoration-zinc-300 underline-offset-2 transition-colors hover:decoration-zinc-500 dark:decoration-zinc-600 dark:hover:decoration-zinc-400'
 
 export default function SolarSystem() {
   return (
@@ -51,7 +50,7 @@ export default function SolarSystem() {
           <p className="mt-3 text-sm">
             <em>
               Special thanks to Keith Miller and Gordon Squires at{' '}
-              <a className={linkClass} href="https://www.ipac.caltech.edu/">
+              <a className={LINK_CLASS} href="https://www.ipac.caltech.edu/">
                 IPAC
               </a>{' '}
               for their help in producing this video.
@@ -66,19 +65,19 @@ export default function SolarSystem() {
             In my experience, working through well-written exams is one of the
             most effective ways to practice in Science Olympiad. Exams that I
             have written (or helped write) can be found{' '}
-            <Link className={linkClass} href="/scioly/past-exams">
+            <Link className={LINK_CLASS} href="/scioly/past-exams">
               here
             </Link>
             . Additional exams can be found on the SciOly.org{' '}
             <a
-              className={linkClass}
+              className={LINK_CLASS}
               href="https://scioly.org/wiki/index.php?title=Solar_System"
             >
               Wiki
             </a>{' '}
             and{' '}
             <a
-              className={linkClass}
+              className={LINK_CLASS}
               href="https://scioly.org/wiki/index.php/2023_Test_Exchange"
             >
               Test Exchange
@@ -97,23 +96,23 @@ export default function SolarSystem() {
           </p>
           <ul className="mt-3 list-disc space-y-1 pl-5">
             <li>
-              <a className={linkClass} href="https://www.wikipedia.org/">
+              <a className={LINK_CLASS} href="https://www.wikipedia.org/">
                 Wikipedia
               </a>
             </li>
             <li>
-              <a className={linkClass} href="https://solarsystem.nasa.gov/">
+              <a className={LINK_CLASS} href="https://solarsystem.nasa.gov/">
                 NASA Solar System Exploration
               </a>
             </li>
             <li>
-              <a className={linkClass} href="https://astrobiology.nasa.gov/">
+              <a className={LINK_CLASS} href="https://astrobiology.nasa.gov/">
                 NASA Astrobiology
               </a>
             </li>
             <li>
               <a
-                className={linkClass}
+                className={LINK_CLASS}
                 href="https://photojournal.jpl.nasa.gov/"
               >
                 JPL Photojournal

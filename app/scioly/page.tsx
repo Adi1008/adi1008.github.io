@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Stagger, Item } from '@/components/motion'
+import { LINK_CLASS } from '@/lib/utils'
 
 export const metadata: Metadata = {
   title: 'Science Olympiad',
@@ -8,8 +9,6 @@ export const metadata: Metadata = {
     'National Event Supervisor for the middle school space science events in Science Olympiad.',
 }
 
-const linkClass =
-  'underline decoration-zinc-300 underline-offset-2 transition-colors hover:decoration-zinc-500 dark:decoration-zinc-600 dark:hover:decoration-zinc-400'
 
 export default function Scioly() {
   return (
@@ -21,7 +20,7 @@ export default function Scioly() {
         <Item>
           <div className="space-y-4 text-zinc-600 dark:text-zinc-400">
             <p>
-              <a className={linkClass} href="https://www.soinc.org/">
+              <a className={LINK_CLASS} href="https://www.soinc.org/">
                 Science Olympiad
               </a>{' '}
               is the nation&apos;s largest team-based science competition.
@@ -29,14 +28,14 @@ export default function Scioly() {
               astronomy to engineering challenges. I competed in Science
               Olympiad for six years at{' '}
               <a
-                className={linkClass}
+                className={LINK_CLASS}
                 href="https://scioly.org/wiki/index.php/Beckendorff_Junior_High_School"
               >
                 Beckendorff Junior High
               </a>{' '}
               and{' '}
               <a
-                className={linkClass}
+                className={LINK_CLASS}
                 href="https://scioly.org/wiki/index.php/Seven_Lakes_High_School"
               >
                 Seven Lakes High School
@@ -47,14 +46,14 @@ export default function Scioly() {
               Just days after graduating from high school, I joined the
               &ldquo;A-Team&rdquo;, a group of Science Olympiad alumni led by{' '}
               <a
-                className={linkClass}
+                className={LINK_CLASS}
                 href="https://www.linkedin.com/in/donna-lee-young-35b3ba78/"
               >
                 Donna Young
               </a>{' '}
               and{' '}
               <a
-                className={linkClass}
+                className={LINK_CLASS}
                 href="https://www.physics.ox.ac.uk/our-people/komacek"
               >
                 Tad Komacek
@@ -62,7 +61,7 @@ export default function Scioly() {
               that runs the astronomy-related events in Science Olympiad. In
               the past, we have been generously supported by{' '}
               <a
-                className={linkClass}
+                className={LINK_CLASS}
                 href="https://www.universe-of-learning.org/"
               >
                 NASA&apos;s Universe of Learning
@@ -72,7 +71,7 @@ export default function Scioly() {
             <p>
               Along with{' '}
               <a
-                className={linkClass}
+                className={LINK_CLASS}
                 href="https://www.linkedin.com/in/connor-todd-548467171/"
               >
                 Connor Todd
@@ -87,19 +86,19 @@ export default function Scioly() {
             <p>
               We are always looking for new members. If you are interested in
               joining the A-Team, feel free to reach out to{' '}
-              <a className={linkClass} href="mailto:adityashah108@gmail.com">
+              <a className={LINK_CLASS} href="mailto:adityashah108@gmail.com">
                 me
               </a>
               ,{' '}
-              <a className={linkClass} href="mailto:cwtodd@umich.edu">
+              <a className={LINK_CLASS} href="mailto:cwtodd@umich.edu">
                 Connor
               </a>
               ,{' '}
-              <a className={linkClass} href="mailto:dlyoung.nso@gmail.com">
+              <a className={LINK_CLASS} href="mailto:dlyoung.nso@gmail.com">
                 Donna
               </a>
               ,{' '}
-              <a className={linkClass} href="mailto:tkomacek@umd.edu">
+              <a className={LINK_CLASS} href="mailto:tkomacek@umd.edu">
                 Tad
               </a>
               , or any other member of the A-Team you may know. We&apos;d love
