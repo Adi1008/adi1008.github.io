@@ -34,14 +34,6 @@ export const PUBLICATIONS: Publication[] = [
 
 export const BLOG_POSTS: BlogPost[] = [
   {
-    title: 'From particles to fields: the Hubbard-Stratonovich transformation',
-    description:
-      'Turning a many-body partition function into a statistical field theory',
-    date: 'March 2025',
-    link: '/blog/hubbard-stratonovich-transformation',
-    uid: 'blog-2',
-  },
-  {
     title: 'Planetary equilibrium temperature',
     description:
       'Estimating the temperature of a planet with an energy balance',
