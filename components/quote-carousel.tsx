@@ -1,5 +1,5 @@
 'use client'
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { AnimatePresence, motion } from 'motion/react'
 import {
   ChevronLeftIcon,
@@ -14,20 +14,30 @@ type Quote = {
 
 const INTERVAL_MS = 8000
 
+// Slide in from the direction of travel: pressing "next" (dir = 1) brings the
+// new quote in from the right; "back" (dir = -1) brings it in from the left.
+const VARIANTS = {
+  enter: (dir: number) => ({ x: dir * 32, opacity: 0 }),
+  center: { x: 0, opacity: 1 },
+  exit: (dir: number) => ({ x: dir * -32, opacity: 0 }),
+}
+
 export function QuoteCarousel({ quotes }: { quotes: Quote[] }) {
-  const [index, setIndex] = useState(0)
+  const [current, setCurrent] = useState({ index: 0, dir: 1 })
   const [paused, setPaused] = useState(false)
-  const timerRef = useRef<ReturnType<typeof setInterval> | null>(null)
+
+  const paginate = (dir: 1 | -1) =>
+    setCurrent((c) => ({
+      index: (c.index + dir + quotes.length) % quotes.length,
+      dir,
+    }))
 
   useEffect(() => {
     if (paused || quotes.length < 2) return
-    timerRef.current = setInterval(() => {
-      setIndex((i) => (i + 1) % quotes.length)
-    }, INTERVAL_MS)
-    return () => {
-      if (timerRef.current) clearInterval(timerRef.current)
-    }
-  }, [paused, quotes.length, index])
+    const id = setInterval(() => paginate(1), INTERVAL_MS)
+    return () => clearInterval(id)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [paused, quotes.length, current.index])
 
   if (quotes.length === 0) return null
 
@@ -45,9 +55,7 @@ export function QuoteCarousel({ quotes }: { quotes: Quote[] }) {
             type="button"
             aria-label="Previous quote"
             className={buttonClass}
-            onClick={() =>
-              setIndex((i) => (i - 1 + quotes.length) % quotes.length)
-            }
+            onClick={() => paginate(-1)}
           >
             <ChevronLeftIcon className="h-4 w-4" />
           </button>
@@ -67,27 +75,29 @@ export function QuoteCarousel({ quotes }: { quotes: Quote[] }) {
             type="button"
             aria-label="Next quote"
             className={buttonClass}
-            onClick={() => setIndex((i) => (i + 1) % quotes.length)}
+            onClick={() => paginate(1)}
           >
             <ChevronRightIcon className="h-4 w-4" />
           </button>
         </div>
       </div>
-      <div className="mt-4">
-        <AnimatePresence mode="wait">
+      <div className="mt-4 overflow-hidden">
+        <AnimatePresence mode="wait" custom={current.dir} initial={false}>
           <motion.blockquote
-            key={index}
-            initial={{ opacity: 0, y: 8 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -8 }}
-            transition={{ duration: 0.25 }}
-            className="text-zinc-600 italic dark:text-zinc-400"
+            key={current.index}
+            custom={current.dir}
+            variants={VARIANTS}
+            initial="enter"
+            animate="center"
+            exit="exit"
+            transition={{ duration: 0.25, ease: 'easeOut' }}
+            className="text-zinc-600 dark:text-zinc-400"
           >
-            &ldquo;{quotes[index].quote}&rdquo;
+            &ldquo;{quotes[current.index].quote}&rdquo;
           </motion.blockquote>
         </AnimatePresence>
         <p className="mt-4 text-right text-xs text-zinc-400 dark:text-zinc-500">
-          {index + 1} / {quotes.length}
+          {current.index + 1} / {quotes.length}
         </p>
       </div>
     </div>

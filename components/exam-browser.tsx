@@ -198,7 +198,7 @@ export function ExamBrowser({ exams }: { exams: Exam[] }) {
                     )}
                   </h3>
                   {exam.notes && (
-                    <p className="mt-0.5 text-xs text-zinc-400 italic dark:text-zinc-500">
+                    <p className="mt-0.5 text-xs text-zinc-400 dark:text-zinc-500">
                       {exam.notes}
                     </p>
                   )}

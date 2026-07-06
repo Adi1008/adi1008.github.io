@@ -44,10 +44,17 @@ first, or just let CI do the building.)
 
 ### Add a page
 
-Create `app/<name>/page.tsx` — it becomes `/<name>/`. Copy an existing page
-(e.g. `app/research/page.tsx`) for the structure: `metadata` export,
-`<Stagger>`/`<Item>` for the entrance animation, `LINK_CLASS` for links.
-To put it in the navigation bar, add it to `NAV_LINKS` in `app/header.tsx`.
+Two options:
+
+- **Markdown page** (easiest): copy the `app/research/` folder — `page.mdx`
+  holds the content as plain Markdown (with a `metadata` export at the top),
+  and `layout.tsx` provides the typography and entrance animation.
+- **Custom page**: copy a TSX page like `app/teaching/page.tsx` for the
+  structure: `metadata` export, `<Stagger>`/`<Item>` for the entrance
+  animation, `LINK_CLASS` for links.
+
+Either way the folder name becomes the URL (`app/<name>/` → `/<name>/`). To
+put the page in the navigation bar, add it to `NAV_LINKS` in `app/header.tsx`.
 
 ### Everything else
 

@@ -20,11 +20,6 @@ type SocialLink = {
   link: string
 }
 
-type ResearchTopic = {
-  title: string
-  id: string
-}
-
 export const PUBLICATIONS: Publication[] = [
   {
     title: 'Asymmetric ether solvents for high-rate lithium metal batteries',
@@ -34,25 +29,6 @@ export const PUBLICATIONS: Publication[] = [
     year: '2025',
     doi: 'https://doi.org/10.1038/s41560-025-01716-w',
     id: 'pub-1',
-  },
-]
-
-export const RESEARCH_TOPICS: ResearchTopic[] = [
-  {
-    title: 'Enabling fast redox kinetics through solvent asymmetry',
-    id: 'topic-1',
-  },
-  {
-    title: 'Correlated ion transport in high concentration electrolytes',
-    id: 'topic-2',
-  },
-  {
-    title: 'Formation mechanism and structure of ion aggregates',
-    id: 'topic-3',
-  },
-  {
-    title: 'Field theory of lithium charge transfer kinetics',
-    id: 'topic-4',
   },
 ]
 
