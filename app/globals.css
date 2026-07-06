@@ -31,6 +31,18 @@
   --sh-entity: #e0af68;
 }
 
+/* Line spacing for body text site-wide. Tweak this number to taste
+   (Tailwind default is 1.5). Blog posts and the research page use the
+   typography ("prose") plugin instead — their line spacing is set with
+   prose-p:leading-[...] classes in their layout.tsx files. */
+@layer base {
+  p,
+  li,
+  blockquote {
+    line-height: 1.45;
+  }
+}
+
 /* KaTeX display equations can be wider than the prose column on phones */
 .katex-display {
   overflow-x: auto;

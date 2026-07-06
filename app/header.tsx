@@ -39,7 +39,7 @@ export function Header() {
           className="text-zinc-600 dark:text-zinc-500"
           delay={0.5}
         >
-          Ph.D. Candidate, Chemical Engineering
+          Aditya Shah
         </TextEffect>
       </div>
       <nav className="mt-4 -mx-2.5 flex flex-wrap items-center">
