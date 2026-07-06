@@ -32,21 +32,21 @@ Consider a star of radius $R_{s}$ and temperature $T_{s}$. An object (say, a pla
 
 In order for our planet to be in thermal equilibrium, the power emitted by the planet has to be equal to the power the planet absorbs,[^2] as such:
 
-$$ P_{emitted} = P_{absorbed}$$
+$$ P_{\rm emitted} = P_{\rm absorbed}$$
 
 [^2]: In truth, the surface/atmosphere of the planet will also receive some power from its interior, which I didn't explicitly write here. If we wanted to include it, we'd have a "$+\text{ }P_{internal}$" on the right-hand side of the equation. $P_{internal}$ is generally due to the radioactive decay of elements in the interior of the planet and the release of graviational potential energy from the planet's formation. For large planets like Jupiter, the power from the interior can be quite substantial, but for rocky/icy objects, which are more likely to be habitable, we can typically neglect it.
 
-This is a consequence of conservation of energy, which states that energy cannot be created or destroyed. If we can derive expressions for $P_{emitted}$ and $P_{absorbed}$, we can set them equal to each other and solve for the equilibrium temperature of the planet. But, what are $P_{emitted}$ and $P_{absorbed}$?
+This is a consequence of conservation of energy, which states that energy cannot be created or destroyed. If we can derive expressions for $P_{\rm emitted}$ and $P_{\rm absorbed}$, we can set them equal to each other and solve for the equilibrium temperature of the planet. But, what are $P_{\rm emitted}$ and $P_{\rm absorbed}$?
 
-## Finding $P_{emitted}$
+## Finding $P_{\rm emitted}$
 
-To find $P_{emitted}$, we treat the planet as a black body of uniform temperature. The power emitted by the planet is, by definition, the luminosity of the planet, since we are neglecting any internal heat. Using the Stefan-Boltzmann Law, we find that it is
+To find $P_{\rm emitted}$, we treat the planet as a black body of uniform temperature. The power emitted by the planet is, by definition, the luminosity of the planet, since we are neglecting any internal heat. Using the Stefan-Boltzmann Law, we find that it is
 
-$$ P_{emitted} = L_p = \boxed{4\pi R_p^2 \sigma T_p^4}$$
+$$ P_{\rm emitted} = L_p = \boxed{4\pi R_p^2 \sigma T_p^4}$$
 
 where $\sigma$ is the Stefan-Boltzmann constant (approximately $5.67 \times 10^{-8} \text{ W}\cdot\text{m}^{-2}\cdot\text{K}^{-4}$) and $R_p$ and $T_p$ are the radius and temperature of the planet, respectively.
 
-## Finding $P_{absorbed}$
+## Finding $P_{\rm absorbed}$
 
 Using the same procedure as above, we know that the luminosity of the star is
 
@@ -70,11 +70,11 @@ $$ \overbrace{\pi R_p^2}^{\substack{\text{cross-} \\ \text{sectional}\\ \text{ar
 
 Finally, we consider the Bond albedo of the planet. By definition, the fraction of light the planet will absorb will be $(1-\alpha)$. Putting it all together, we find that the power absorbed by the planet is
 
-$$ P_{absorbed} = \dfrac{\pi R_p^2R_s^2 \sigma T_s^4}{D^2} \times (1-\alpha)= \boxed{\dfrac{\pi R_p^2 R_s^2 \sigma T_s^4}{D^2}(1-\alpha)}$$
+$$ P_{\rm absorbed} = \dfrac{\pi R_p^2R_s^2 \sigma T_s^4}{D^2} \times (1-\alpha)= \boxed{\dfrac{\pi R_p^2 R_s^2 \sigma T_s^4}{D^2}(1-\alpha)}$$
 
 ## Putting it all together
 
-Now, we set $P_{emitted}$ and $P_{absorbed}$ equal to each other, since the planet is in thermal equilibrium, and solve for $T_p$:
+Now, we set $P_{\rm emitted}$ and $P_{\rm absorbed}$ equal to each other, since the planet is in thermal equilibrium, and solve for $T_p$:
 
 $$
 \begin{align}
