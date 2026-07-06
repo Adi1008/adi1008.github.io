@@ -7,9 +7,6 @@ export default function Home() {
     <main>
       <Stagger>
         <Item>
-          <h3 className="mb-5 text-lg font-medium">About me</h3>
-        </Item>
-        <Item>
           <div className="flex flex-col-reverse items-start gap-6 sm:flex-row">
             <div className="flex-1 space-y-4 text-zinc-600 dark:text-zinc-400">
               <p>

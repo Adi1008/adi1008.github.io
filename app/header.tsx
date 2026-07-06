@@ -9,7 +9,6 @@ import { useState } from 'react'
 
 const NAV_LINKS = [
   { label: 'Research', href: '/research' },
-  { label: 'Publications', href: '/publications' },
   { label: 'Teaching', href: '/teaching' },
   { label: 'Science Olympiad', href: '/scioly' },
   { label: 'Blog', href: '/blog' },
